@@ -15,7 +15,7 @@ Cat images are abundant on the internet. The main source comes from web scraping
 
 While it might seem wise to scrape the breed and color information available on PetFinder.com, a significant fraction of that information is incorrect, especially for exotic animals. For that reason, the images will need to be labeled by one or more experts who agree. In support of this, I have already prepared an application for rapid labeling of the 45,000 images and identified an expert willing to perform the task. An image can be labeled in about 2 seconds, meaning an individual can label all of the images in approximately 25 hours.
 
-I will develop the DCNN in python using keras with tensorflow as a backend. As a preliminary step, it is important to identify whether there is enough information in the images to classify them. In order to demonstrate this, I have used an unsupervised clustering model to identify sets of similar images. Many of the clusters produced are precisely drawn around the classes I wish to describe (see Fig 2).
+I will develop the DCNN in python using keras with tensorflow as a backend. As a preliminary step, it is important to identify whether there is enough information in the images to classify them. In order to demonstrate this, I have used an unsupervised clustering model (src: https://github.com/elcorto/imagecluster) to identify sets of similar images. Many of the clusters produced are precisely drawn around the classes I wish to describe (see Fig 2).
 
 <p>
   <img src="/images/cat_clusters.png" width="566" height="616" title="Fig 2">
