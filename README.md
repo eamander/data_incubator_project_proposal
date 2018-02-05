@@ -18,7 +18,7 @@ While it might seem wise to scrape the breed and color information available on 
 I will develop the DCNN in python using keras with tensorflow as a backend. As a preliminary step, it is important to identify whether there is enough information in the images to classify them. In order to demonstrate this, I have used an unsupervised clustering model to identify sets of similar images. Many of the clusters produced are precisely drawn around the classes I wish to describe (see Fig 2).
 
 <p>
-  <img src="/images/cat_clusters.png" width="566" height="616" title="Fig 1">
+  <img src="/images/cat_clusters.png" width="566" height="616" title="Fig 2">
   
   <em>Fig 2. Most of the images placed in one of the larger clusters show remarkable similarity. Supervised learning will preven the occasional misclassification (like the grey tabby in the top-right)</em>
 </p>
